@@ -50,4 +50,3 @@ JavaScript, React, TailwindCSS
 *(Outros projetos estão em desenvolvimento e serão adicionados futuramente.)*
 
 ---
-   git clone https://github.com/withxlari/Portfolio.git
