@@ -26,14 +26,6 @@ No site você encontra:
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **React**
-- **Node.js**
-- **Python**
-- **Java**
-- **Git & GitHub**
-- **Linux**
-
-As tecnologias refletem tanto projetos já desenvolvidos quanto conhecimentos em constante evolução.
 
 ---
 
