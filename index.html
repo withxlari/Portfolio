@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Larissa Vitoria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="two.png">
+</head>
+<body>
+    <canvas id="matrix-bg"></canvas>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">&gt;_ LV</div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">home</a>
+                <a href="#about" class="nav-link">sobre</a>
+                <a href="#projects" class="nav-link">projetos</a>
+                <a href="#terminal" class="nav-link">terminal</a>
+                <a href="#contact" class="nav-link">contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <div class="dev-name">LARISSA VITORIA</div>
+                <div class="glitch" data-text="SOFTWARE DEVELOPER">SOFTWARE DEVELOPER</div>
+                <h1 class="typing-text">Bem-vindo ao meu universo digital_</h1>
+                <p class="hero-subtitle">Transformando lógica em software funcional</p>
+                <a href="#terminal" class="cta-button">ACESSAR TERMINAL &gt;</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">&lt;sobre_mim /&gt;</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">{ }</div>
+                        <h3>Desenvolvimento</h3>
+                        <p>Especializada em criar soluções web modernas e responsivas com foco em performance e experiência do usuário.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">&lt;/&gt;</div>
+                        <h3>Tecnologias</h3>
+                        <p>JavaScript, React, Node.js, Python, HTML5, CSS3, Git, Python, Linux e Java.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">[ ]</div>
+                        <h3>Aprendizado</h3>
+                        <p>Sempre buscando novos desafios e oportunidades para expandir conhecimento e habilidades técnicas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">&lt;principais_projetos /&gt;</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-number">01</span>
+                            <span class="project-status">EM ANDAMENTO</span>
+                        </div>
+                        <h3>Lumus - Bookshelf Scanner</h3>
+                        <p>Aplicação web que identifica livros em fotos de estantes usando IA (Google Gemini) e gera recomendações personalizadas.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>React</span>
+                            <span>Vite</span>
+                        </div>
+                        <a href="https://github.com/withxlari/Lumus" class="project-link">Ver projeto &gt;</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-number">02</span>
+                            <span class="project-status">EM ANDAMENTO</span>
+                        </div>
+                        <h3>Gestor de Obras Inteligente</h3>
+                        <p>Aplicação de gerenciamento para facilitar a organização e o acompanhamento de obras de um jeito simples e intuitivo.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>TailwindCSS</span>
+                        </div>
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7404687552965971968/" class="project-link">Ver projeto &gt;</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <span class="project-number">03</span>
+                            <span class="project-status">EM ANDAMENTO</span>
+                        </div>
+                        <h3>LOADING...</h3>
+                        <p>EM DESENVOLVIMENTO...</p>
+                        <div class="project-tags">
+                            <span>XX</span>
+                            <span>XX</span>
+                            <span>XX</span>
+                        </div>
+                        <a href="" class="project-link">Ver projeto &gt;</a>
+                    </div>
+                </div>
+                <div class="more-projects-container">
+                    <a href="" class="more-projects-btn">
+                        <span class="btn-icon">[+]</span>
+                        MAIS PROJETOS
+                        <span class="btn-arrow">&gt;&gt;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="terminal" class="section">
+            <div class="container">
+                <h2 class="section-title">&lt;terminal_interativo /&gt;</h2>
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-close"></span>
+                            <span class="btn-minimize"></span>
+                            <span class="btn-maximize"></span>
+                        </div>
+                        <div class="terminal-title">neocity@:~$</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div id="terminal-output"></div>
+                        <div class="terminal-input-line">
+                            <span class="terminal-prompt">unknown@:~$</span>
+                            <input type="text" id="terminal-input" class="terminal-input" autofocus autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+                <div class="terminal-help">
+                    <p>Digite <span class="command-hint">help</span> para ver os comandos disponíveis</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">&lt;contato /&gt;</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Vamos conversar?</h3>
+                        <p>Estou sempre aberta a novos projetos e oportunidades. Entre em contato!</p>
+                        <div class="contact-links">
+                            <a href="" class="contact-link">
+                                <span class="link-icon">@</span>
+                                vlarissaq265@gmail.com
+                            </a>
+                            <a href="https://github.com/withxlari" target="_blank" class="contact-link">
+                                <span class="link-icon">&lt;/&gt;</span>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/larissavitoriax/" target="_blank" class="contact-link">
+                                <span class="link-icon">in</span>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <input type="text" placeholder="Nome" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Mensagem" rows="5" required></textarea>
+                            <button type="submit" class="submit-button">ENVIAR MENSAGEM &gt;</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Portfolio Larissa Vitoria</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
